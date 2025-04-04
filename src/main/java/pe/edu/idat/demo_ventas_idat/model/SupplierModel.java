@@ -13,7 +13,7 @@ public class SupplierModel {
     private String address;
     private String city;
     private String region;
-    private String postalCode;
+    private String postalcode;
     private String country;
     private String phone;
     private String fax;
@@ -75,12 +75,11 @@ public class SupplierModel {
         this.region = region;
     }
 
-    public String getPostalCode() {
-        return postalCode;
+    public String getPostalcode() {
+        return postalcode;
     }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
+    public void setPostalcode(String postalcode) {
+        this.postalcode = postalcode;
     }
 
     public String getCountry() {
